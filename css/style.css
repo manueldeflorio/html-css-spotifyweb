@@ -600,3 +600,50 @@ img {
     }
 }
 
+.sidebar li, .nav_menu, .menu_btm{
+
+    & a:hover{
+        color: var(--ligth);
+    }
+}
+
+.action:hover .square{
+    background-color: var(--ligth);
+}
+
+.btn:hover{
+    font-size: large;
+}
+
+.btm_page i:hover{
+    color: var(--ligth);
+    cursor: pointer;
+}
+
+.btm_page .play:hover{
+    font-size: 2.2rem;
+}
+
+.card>.album:hover{
+    cursor: pointer;
+
+    & .play, .background{
+    visibility: visible;
+    }
+    
+}
+
+.btm_left h4:hover{
+    text-decoration: underline;
+    color: var(--ligth);
+    cursor: pointer;
+}
+
+.track:hover{
+    background-color: var(--check);
+    cursor: pointer;
+
+    & .pointer{
+        visibility: visible;
+    }
+}
