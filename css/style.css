@@ -483,3 +483,61 @@ img {
         width: 40%;
     }
 }
+
+@media screen and (max-width: 1180px) {
+    .col-md-3{
+        min-width: calc(100% / 12 * 3);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-6{
+        min-width: 50%;
+    }
+
+    .btm_left .function{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {  
+    .mainpage_top{
+        width: calc(100% - 50px);
+    }
+
+    .sidebar .logo{
+        height: 60px;
+    }
+
+    .logo_sm{
+        display: block;
+        padding: 0.5rem 0;
+    }
+
+    .logo_lg{
+        display: none;
+    }
+
+    .sidebar li, .menu_btm, .sidebar .logo, .sidebar .home{
+    padding-left: 0;
+    padding-right: 0;
+   }
+
+   .sidebar .home, .menu_btm .user{
+    border: 0;
+   }
+
+    .hide{
+        display: none;
+    }
+
+    .sidebar{
+        width: 50px;
+    }
+
+    .user, .download_app, .side_list, .logo, .menu_container{
+        justify-content: center;
+    }
+}
