@@ -541,3 +541,62 @@ img {
         justify-content: center;
     }
 }
+
+@media screen and (max-width:500px) {
+    .hide_xs{
+        display: none;
+    }
+
+    .col-xs-2{
+        width: calc(100% / 12 * 2);
+    }
+
+    .btm_left .album h3{
+        font-size: 0.6rem;
+    }
+
+    .btm_center{
+        padding: 0.5rem;
+    }
+
+    .for_you h2, .recent h2, .popular h2{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    .col-xxs-11{
+        min-width: calc(100% / 12 * 11);
+    }
+
+    .hide_xxs{
+        display: none;
+    }
+
+    .mainpage_header .btn{
+        font-size: 0.8rem;
+
+        &:hover{
+            font-size: 1rem;
+        }
+    }
+
+    .visible_xxs{
+        display: flex;
+    }
+
+    .btm_page .row{
+        height: 70%;
+    }
+
+    .mainpage_top .nav_menu{
+        bottom: 9rem;
+    }
+}
+
+@media screen and (max-height: 221px) {
+    .btn{
+        visibility: hidden;
+    }
+}
+
