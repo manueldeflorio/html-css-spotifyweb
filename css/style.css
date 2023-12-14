@@ -484,11 +484,20 @@ img {
     }
 }
 
+@media screen and (min-width: 1180px) {
+    .logo_sm{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1180px) {
     .col-md-3{
         min-width: calc(100% / 12 * 3);
     }
     
+    .logo_sm{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -499,6 +508,10 @@ img {
     .btm_left .function{
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .logo_sm{
+        display: none;
     }
 }
 
