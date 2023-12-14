@@ -111,7 +111,7 @@ img {
 }
 
 .sidebar .home{
-    border-left: 3px solid var(--check);
+    border-left: 4px solid var(--check);
     padding-left: calc(1rem - 3px);
 
     & a{
@@ -291,7 +291,7 @@ img {
 
 .card{
     max-width: 250px;
-    padding: 0.25rem;
+    padding: 0.50rem;
 
     & h3{
         color: var(--ligth);
